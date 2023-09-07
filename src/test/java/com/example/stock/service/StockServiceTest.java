@@ -81,7 +81,7 @@ class StockServiceTest {
     }
 
     @Test
-    @DisplayName("PessimisticLock을 이용한 경쟁 조건 해결")
+    @DisplayName("Pessimistic Lock을 이용한 경쟁 조건 해결")
     public void 동시에_100개의_요청2() throws InterruptedException {
 
         // given
